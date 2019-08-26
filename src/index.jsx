@@ -1,9 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-
-const ProjectThree = () => {
-  return <h1>This is ProjectThree</h1>;
-};
+import ProjectThree from './component/app';
 
 const mainDiv = document.querySelector('#renderHere');
 
